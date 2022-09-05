@@ -16,8 +16,8 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name" style="text-align: justfy;">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline" style="text-align: justfy;">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      <h1 class="project-name" style="text-align: justfy!important;">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline" style="text-align: justfy!important;">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <a href="https://DataParadox.github.io" class="btn">DataParadox</a>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -28,7 +28,7 @@
       {% endif %}
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main id="content" class="main-content" style="text-align: justfy!important;" role="main">
       {{ content }}
     </main>
     <footer class="site-footer page-header">
