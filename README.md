@@ -26,7 +26,9 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
   year={2016},
   organization={IEEE}
 }
+```
 
+```
 @inproceedings{kumar2018rev2,
   title={Rev2: Fraudulent user prediction in rating platforms},
   author={Kumar, Srijan and Hooi, Bryan and Makhija, Disha and Kumar, Mohit and Faloutsos, Christos and Subrahmanian, VS},
