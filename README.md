@@ -26,6 +26,7 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
 | :--- | :--- |
 | [soc-sign-bitcoinotc.csv.gz](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)	| Weighted Signed Directed Bitcoin OTC web of trust network |
 
+
 - _Data Format:_ Each line has one rating, sorted by time, with the following format:<br><br>
 ```SOURCE, TARGET, RATING, TIME```<br>
 where
