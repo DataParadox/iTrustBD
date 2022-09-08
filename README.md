@@ -13,6 +13,7 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
 | Edges|	35,592 |
 | Range of edge weight |	-10 to +10 |
 | Percentage of positive edges |	89% |
+
 <br>
 - _Source (Citation):_ The following BibTeX citation can be used:<br><br>
 
