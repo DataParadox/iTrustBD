@@ -4,3 +4,5 @@ plugins:
 show_downloads: true
 title: Study and Analysis of the BTC-Alpha Network to Identify Influence of Trust Behavior Dynamics
 description: ‎
+gems:
+  - jekyll-mathematical
