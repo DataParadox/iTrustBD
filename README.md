@@ -57,7 +57,7 @@ where
   - `TIME`: the time of the rating, measured as seconds since Epoch.
 
 **B. Dataset Acquisition**
-- To acquire the _"[Bitcoin Alpha Trust Weighted Signed Network](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)"_ in its present form we need to the following minor edition:
+- To acquire the _[Bitcoin Alpha Trust Weighted Signed Network](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)_ in its present form we need to the following minor edition:
 + _Class:_ The class of each trader (node).
     - _Trusty Class_ (𝒯): `+1`
     - _Normal Class_ (𝒩): `0`
