@@ -3,8 +3,8 @@
 Study and analyze the BTC-Alpha network to identify influence of trust behavior dynamics on bitcoin-based cryptocurrency. Also, analyze how the roles of important individuals with the network contribute to the dynamics of cryptocurrency networks, particularly with regard to the privacy and network security. 
 
 **A. Dataset Information**
-- [ ] This is who-trusts-whom network of people who trade using Bitcoin on a platform called [Bitcoin OTC](http://www.bitcoin-otc.com/). Since Bitcoin users are anonymous, there is a need to maintain a record of users' reputation to prevent transactions with fraudulent and risky users. Members of Bitcoin OTC rate other members in a scale of -10 (total distrust) to +10 (total trust) in steps of 1. This is the first explicit weighted signed directed network available for research.
-- [ ] _Dataset Statistics:_
+- This is who-trusts-whom network of people who trade using Bitcoin on a platform called [Bitcoin OTC](http://www.bitcoin-otc.com/). Since Bitcoin users are anonymous, there is a need to maintain a record of users' reputation to prevent transactions with fraudulent and risky users. Members of Bitcoin OTC rate other members in a scale of -10 (total distrust) to +10 (total trust) in steps of 1. This is the first explicit weighted signed directed network available for research.
+- _Dataset Statistics:_
 
 | Properties | Information |
 | :---- | :----: |
@@ -13,7 +13,7 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
 | Range of edge weight |	-10 to +10 |
 | Percentage of positive edges |	89% |
 
-- [ ] _Source (Citation):_ The following BibTeX citation can be used:
+- _Source (Citation):_ The following BibTeX citation can be used:
 ```
 @inproceedings{kumar2016edge,
   title={Edge weight prediction in weighted signed networks},
@@ -33,24 +33,22 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
   organization={ACM}
 }
 ```
-- [ ] _Files:_
+- _Files:_
 
 | File	| Description |
 | :--- | :--- |
 | [soc-sign-bitcoinotc.csv.gz](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)	| Weighted Signed Directed Bitcoin OTC web of trust network |
 
-- [ ] _Data Format:_ Each line has one rating, sorted by time, with the following format:
-
-```SOURCE, TARGET, RATING, TIME```
-
-  where
+- _Data Format:_ Each line has one rating, sorted by time, with the following format:<br>
+```SOURCE, TARGET, RATING, TIME```<br>
+where
   - `SOURCE`: node id of source, i.e., rater
   - `TARGET`: node id of target, i.e., ratee
   - `RATING`: the source's rating for the target, ranging from -10 to +10 in steps of 1
   - `TIME`: the time of the rating, measured as seconds since Epoch.
 
 **B. Dataset Acquisition**
-- [ ] To acquire the _"[Bitcoin Alpha Trust Weighted Signed Network](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)"_ in its present form we need to the following minor edition:
+- To acquire the _"[Bitcoin Alpha Trust Weighted Signed Network](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)"_ in its present form we need to the following minor edition:
 + _Class:_ The class of each trader (node).
     - _Trusty Class (𝒯):_ `+1`
     - _Normal Class (𝒩):_ `0`
