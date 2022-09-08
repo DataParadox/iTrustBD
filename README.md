@@ -15,6 +15,7 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
 | Percentage of positive edges |	89% |
 
 <br>
+
 - _Source (Citation):_ The following BibTeX citation can be used:<br><br>
 
 ```
@@ -46,6 +47,7 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
 | [soc-sign-bitcoinotc.csv.gz](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)	| Weighted Signed Directed Bitcoin OTC web of trust network |
 
 <br>
+
 - _Data Format:_ Each line has one rating, sorted by time, with the following format:<br><br>
 ```SOURCE, TARGET, RATING, TIME```<br>
 where
