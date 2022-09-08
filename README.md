@@ -64,6 +64,9 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
   - $\left < w \right >$ : Average weight of the network.
 
 **C. Network Visualization**
+
+<img style="width: 50%;" src="./img/network_preview.png"  title="Network Visualization of BTC-Alpha Dataset"/>
+
 + Orange nodes represent trusty (𝒯) class.
   - 𝟑𝟔.𝟒𝟖 % of the network
 + Sky-blue nodes represent normal (𝒩) class.
@@ -71,3 +74,4 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
 + Black nodes represent suspicious (𝒮) class.
   - 𝟖.𝟓𝟔 % of the network
 + Edges acquired the source nodes color.
+
