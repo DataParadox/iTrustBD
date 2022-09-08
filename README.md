@@ -14,6 +14,7 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
 | Range of edge weight |	-10 to +10 |
 | Percentage of positive edges |	89% |
 
+
 - _Source (Citation):_ The following BibTeX citation can be used:<br><br>
 
 ```@inproceedings{kumar2016edge, title={Edge weight prediction in weighted signed networks}, author={Kumar, Srijan and Spezzano, Francesca and Subrahmanian, VS and Faloutsos, Christos}, booktitle={Data Mining (ICDM), 2016 IEEE 16th International Conference on}, pages={221--230}, year={2016}, organization={IEEE}}```
