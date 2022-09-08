@@ -13,31 +13,34 @@ Study and analyze the BTC-Alpha network to identify influence of trust behavior 
 | Range of edge weight |	-10 to +10 |
 | Percentage of positive edges |	89% |
 
-- _Source (Citation):_ The following BibTeX citation can be used:<br>
-```@inproceedings{kumar2016edge,
-  title={Edge weight prediction in weighted signed networks},
-  author={Kumar, Srijan and Spezzano, Francesca and Subrahmanian, VS and Faloutsos, Christos},
-  booktitle={Data Mining (ICDM), 2016 IEEE 16th International Conference on},
-  pages={221--230},
-  year={2016},
-  organization={IEEE}
+- _Source (Citation):_ The following BibTeX citation can be used:<br><br>
+```
+@inproceedings{kumar2016edge,
+title={Edge weight prediction in weighted signed networks},
+author={Kumar, Srijan and Spezzano, Francesca and Subrahmanian, VS and Faloutsos, Christos},
+booktitle={Data Mining (ICDM), 2016 IEEE 16th International Conference on},
+pages={221--230},
+year={2016},
+organization={IEEE}
 }
 
 @inproceedings{kumar2018rev2,
-  title={Rev2: Fraudulent user prediction in rating platforms},
-  author={Kumar, Srijan and Hooi, Bryan and Makhija, Disha and Kumar, Mohit and Faloutsos, Christos and Subrahmanian, VS},
-  booktitle={Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining},
-  pages={333--341},
-  year={2018},
-  organization={ACM}
-}```
+title={Rev2: Fraudulent user prediction in rating platforms},
+author={Kumar, Srijan and Hooi, Bryan and Makhija, Disha and Kumar, Mohit and Faloutsos, Christos and Subrahmanian, VS},
+booktitle={Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining},
+pages={333--341},
+year={2018},
+organization={ACM}
+}
+```
+
 - _Files:_
 
 | File	| Description |
 | :--- | :--- |
 | [soc-sign-bitcoinotc.csv.gz](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)	| Weighted Signed Directed Bitcoin OTC web of trust network |
 
-- _Data Format:_ Each line has one rating, sorted by time, with the following format:<br>
+- _Data Format:_ Each line has one rating, sorted by time, with the following format:<br><br>
 ```SOURCE, TARGET, RATING, TIME```<br>
 where
   - `SOURCE`: node id of source, i.e., rater
@@ -48,11 +51,11 @@ where
 **B. Dataset Acquisition**
 - To acquire the _"[Bitcoin Alpha Trust Weighted Signed Network](https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz)"_ in its present form we need to the following minor edition:
 + _Class:_ The class of each trader (node).
-    - _Trusty Class (𝒯):_ `+1`
-    - _Normal Class (𝒩):_ `0`
-    - _Suspecious Class (𝒮):_ `-1`
+    - _Trusty Class_ (𝒯): `+1`
+    - _Normal Class_ (𝒩): `0`
+    - _Suspecious Class_ (𝒮): `-1`
 
-+ The class label of the node `v` is calculated as following -<br>
++ The class label of the node `v` is calculated as following -<br><br>
 <img src="./img/classEqn.svg" /><br>where
   - $deg^{w^-}(v)$ : Weighted in-degree of node `v`.
   - $L$ : Number of edges in network.
