@@ -80,3 +80,19 @@ where
   - 𝟖.𝟓𝟔 % of the network
 + Edges acquired the source nodes color.
 
+**D. Published Article**
++ To access the published article _[click here](https://drive.google.com/file/d/1wCX8KZ2qmcIwwlXbkmc_s_xC-06EOK6e/view)_.
++ To cite the published article use following:
+```
+@article{islam2024itrustbd,
+  title={iTrustBD: Study and Analysis of Bitcoin Networks to Identify the Influence of Trust Behavior Dynamics},
+  author={Islam, Md Jahidul and Islam, Md Rakibul and Basar, Md Abul},
+  journal={SN Computer Science},
+  volume={5},
+  number={5},
+  pages={476},
+  year={2024},
+  publisher={Springer}
+}
+```
+
